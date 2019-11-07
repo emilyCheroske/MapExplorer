@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32CDC9EF4BDB44543C5BDF55 /* Pods_MaineExplorerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41DFDDB32AA674B3F385046 /* Pods_MaineExplorerUITests.framework */; };
+		9F16F50E23729BEC00BC83EB /* PopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16F50D23729BEC00BC83EB /* PopupViewController.swift */; };
+		9F16F5112373A63C00BC83EB /* MapAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F16F50F2373A63C00BC83EB /* MapAreaCell.swift */; };
+		9F16F5122373A63C00BC83EB /* MapAreaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F16F5102373A63C00BC83EB /* MapAreaCell.xib */; };
+		9F4901022372586D009FC289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901012372586D009FC289 /* AppDelegate.swift */; };
+		9F4901042372586E009FC289 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901032372586E009FC289 /* SceneDelegate.swift */; };
+		9F4901062372586E009FC289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901052372586E009FC289 /* ViewController.swift */; };
+		9F4901092372586E009FC289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4901072372586E009FC289 /* Main.storyboard */; };
+		9F49010B2372586E009FC289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F49010A2372586E009FC289 /* Assets.xcassets */; };
+		9F49010E2372586E009FC289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F49010C2372586E009FC289 /* LaunchScreen.storyboard */; };
+		9F4901192372586E009FC289 /* MaineExplorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901182372586E009FC289 /* MaineExplorerTests.swift */; };
+		9F4901242372586E009FC289 /* MaineExplorerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901232372586E009FC289 /* MaineExplorerUITests.swift */; };
+		9F4901322372627B009FC289 /* MapClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4901312372627B009FC289 /* MapClass.swift */; };
+		9F49013423726393009FC289 /* MapListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F49013323726393009FC289 /* MapListViewController.swift */; };
+		9FD57C6A23728446008D5D5D /* CustomMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD57C6823728446008D5D5D /* CustomMapCell.swift */; };
+		9FD57C6B23728446008D5D5D /* CustomMapCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FD57C6923728446008D5D5D /* CustomMapCell.xib */; };
+		BFAF61BF4982FF6505F8E25E /* Pods_MaineExplorerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111FE29F43F970D8EEC31D68 /* Pods_MaineExplorerTests.framework */; };
+		F063D177C20885BD8FA9516D /* Pods_MaineExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2714A488E23D658CBDD9B /* Pods_MaineExplorer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4901152372586E009FC289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4900F62372586D009FC289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4900FD2372586D009FC289;
+			remoteInfo = MaineExplorer;
+		};
+		9F4901202372586E009FC289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4900F62372586D009FC289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4900FD2372586D009FC289;
+			remoteInfo = MaineExplorer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111FE29F43F970D8EEC31D68 /* Pods_MaineExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaineExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		452D7AFAD8357FC755B2F2DA /* Pods-MaineExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorerUITests/Pods-MaineExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60E4067485ABAD1CE4802A4F /* Pods-MaineExplorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorerUITests/Pods-MaineExplorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F16F50D23729BEC00BC83EB /* PopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewController.swift; sourceTree = "<group>"; };
+		9F16F50F2373A63C00BC83EB /* MapAreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAreaCell.swift; sourceTree = "<group>"; };
+		9F16F5102373A63C00BC83EB /* MapAreaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapAreaCell.xib; sourceTree = "<group>"; };
+		9F4900FE2372586D009FC289 /* MaineExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaineExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4901012372586D009FC289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F4901032372586E009FC289 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F4901052372586E009FC289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F4901082372586E009FC289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F49010A2372586E009FC289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F49010D2372586E009FC289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F49010F2372586E009FC289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4901142372586E009FC289 /* MaineExplorerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaineExplorerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4901182372586E009FC289 /* MaineExplorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaineExplorerTests.swift; sourceTree = "<group>"; };
+		9F49011A2372586E009FC289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F49011F2372586E009FC289 /* MaineExplorerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaineExplorerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4901232372586E009FC289 /* MaineExplorerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaineExplorerUITests.swift; sourceTree = "<group>"; };
+		9F4901252372586E009FC289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4901312372627B009FC289 /* MapClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapClass.swift; sourceTree = "<group>"; };
+		9F49013323726393009FC289 /* MapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
+		9FD57C6823728446008D5D5D /* CustomMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapCell.swift; sourceTree = "<group>"; };
+		9FD57C6923728446008D5D5D /* CustomMapCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMapCell.xib; sourceTree = "<group>"; };
+		B3FF8880EE68CC28442BA5A5 /* Pods-MaineExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorerTests/Pods-MaineExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B41DFDDB32AA674B3F385046 /* Pods_MaineExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaineExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D2714A488E23D658CBDD9B /* Pods_MaineExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaineExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D791832568CF1E7667449C7F /* Pods-MaineExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorer/Pods-MaineExplorer.release.xcconfig"; sourceTree = "<group>"; };
+		DC27051B0DA539C45CDFD458 /* Pods-MaineExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorer/Pods-MaineExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		F5EE7B80E0D7862FCEB8DF7B /* Pods-MaineExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaineExplorerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaineExplorerTests/Pods-MaineExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4900FB2372586D009FC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F063D177C20885BD8FA9516D /* Pods_MaineExplorer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4901112372586E009FC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAF61BF4982FF6505F8E25E /* Pods_MaineExplorerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F49011C2372586E009FC289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32CDC9EF4BDB44543C5BDF55 /* Pods_MaineExplorerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D299B51B9F119CF53D7885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2714A488E23D658CBDD9B /* Pods_MaineExplorer.framework */,
+				111FE29F43F970D8EEC31D68 /* Pods_MaineExplorerTests.framework */,
+				B41DFDDB32AA674B3F385046 /* Pods_MaineExplorerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5FDB43726BD40623A691F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC27051B0DA539C45CDFD458 /* Pods-MaineExplorer.debug.xcconfig */,
+				D791832568CF1E7667449C7F /* Pods-MaineExplorer.release.xcconfig */,
+				B3FF8880EE68CC28442BA5A5 /* Pods-MaineExplorerTests.debug.xcconfig */,
+				F5EE7B80E0D7862FCEB8DF7B /* Pods-MaineExplorerTests.release.xcconfig */,
+				452D7AFAD8357FC755B2F2DA /* Pods-MaineExplorerUITests.debug.xcconfig */,
+				60E4067485ABAD1CE4802A4F /* Pods-MaineExplorerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F4900F52372586D009FC289 = {
+			isa = PBXGroup;
+			children = (
+				9F4901002372586D009FC289 /* MaineExplorer */,
+				9F4901172372586E009FC289 /* MaineExplorerTests */,
+				9F4901222372586E009FC289 /* MaineExplorerUITests */,
+				9F4900FF2372586D009FC289 /* Products */,
+				8D5FDB43726BD40623A691F4 /* Pods */,
+				79D299B51B9F119CF53D7885 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4900FF2372586D009FC289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4900FE2372586D009FC289 /* MaineExplorer.app */,
+				9F4901142372586E009FC289 /* MaineExplorerTests.xctest */,
+				9F49011F2372586E009FC289 /* MaineExplorerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4901002372586D009FC289 /* MaineExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				9F490139237267B7009FC289 /* Controllers */,
+				9F490138237267B2009FC289 /* Views */,
+				9F4901012372586D009FC289 /* AppDelegate.swift */,
+				9F4901032372586E009FC289 /* SceneDelegate.swift */,
+				9F49010A2372586E009FC289 /* Assets.xcassets */,
+				9F49010F2372586E009FC289 /* Info.plist */,
+				9F4901312372627B009FC289 /* MapClass.swift */,
+			);
+			path = MaineExplorer;
+			sourceTree = "<group>";
+		};
+		9F4901172372586E009FC289 /* MaineExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4901182372586E009FC289 /* MaineExplorerTests.swift */,
+				9F49011A2372586E009FC289 /* Info.plist */,
+			);
+			path = MaineExplorerTests;
+			sourceTree = "<group>";
+		};
+		9F4901222372586E009FC289 /* MaineExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4901232372586E009FC289 /* MaineExplorerUITests.swift */,
+				9F4901252372586E009FC289 /* Info.plist */,
+			);
+			path = MaineExplorerUITests;
+			sourceTree = "<group>";
+		};
+		9F490138237267B2009FC289 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F4901072372586E009FC289 /* Main.storyboard */,
+				9F49010C2372586E009FC289 /* LaunchScreen.storyboard */,
+				9FD57C6923728446008D5D5D /* CustomMapCell.xib */,
+				9F16F5102373A63C00BC83EB /* MapAreaCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F490139237267B7009FC289 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F49013323726393009FC289 /* MapListViewController.swift */,
+				9F4901052372586E009FC289 /* ViewController.swift */,
+				9FD57C6823728446008D5D5D /* CustomMapCell.swift */,
+				9F16F50D23729BEC00BC83EB /* PopupViewController.swift */,
+				9F16F50F2373A63C00BC83EB /* MapAreaCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4900FD2372586D009FC289 /* MaineExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4901282372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorer" */;
+			buildPhases = (
+				3804B863320CAB8E00BB2B1B /* [CP] Check Pods Manifest.lock */,
+				9F4900FA2372586D009FC289 /* Sources */,
+				9F4900FB2372586D009FC289 /* Frameworks */,
+				9F4900FC2372586D009FC289 /* Resources */,
+				BB8E98D26146446E64D0AF92 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaineExplorer;
+			productName = MaineExplorer;
+			productReference = 9F4900FE2372586D009FC289 /* MaineExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F4901132372586E009FC289 /* MaineExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F49012B2372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorerTests" */;
+			buildPhases = (
+				8063F24CEDF489A6E3EA38F3 /* [CP] Check Pods Manifest.lock */,
+				9F4901102372586E009FC289 /* Sources */,
+				9F4901112372586E009FC289 /* Frameworks */,
+				9F4901122372586E009FC289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4901162372586E009FC289 /* PBXTargetDependency */,
+			);
+			name = MaineExplorerTests;
+			productName = MaineExplorerTests;
+			productReference = 9F4901142372586E009FC289 /* MaineExplorerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F49011E2372586E009FC289 /* MaineExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F49012E2372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorerUITests" */;
+			buildPhases = (
+				513D2AA007A7DD9414921712 /* [CP] Check Pods Manifest.lock */,
+				9F49011B2372586E009FC289 /* Sources */,
+				9F49011C2372586E009FC289 /* Frameworks */,
+				9F49011D2372586E009FC289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4901212372586E009FC289 /* PBXTargetDependency */,
+			);
+			name = MaineExplorerUITests;
+			productName = MaineExplorerUITests;
+			productReference = 9F49011F2372586E009FC289 /* MaineExplorerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4900F62372586D009FC289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Emily Cheroske";
+				TargetAttributes = {
+					9F4900FD2372586D009FC289 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					9F4901132372586E009FC289 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9F4900FD2372586D009FC289;
+					};
+					9F49011E2372586E009FC289 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 9F4900FD2372586D009FC289;
+					};
+				};
+			};
+			buildConfigurationList = 9F4900F92372586D009FC289 /* Build configuration list for PBXProject "MaineExplorer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4900F52372586D009FC289;
+			productRefGroup = 9F4900FF2372586D009FC289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4900FD2372586D009FC289 /* MaineExplorer */,
+				9F4901132372586E009FC289 /* MaineExplorerTests */,
+				9F49011E2372586E009FC289 /* MaineExplorerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4900FC2372586D009FC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F16F5122373A63C00BC83EB /* MapAreaCell.xib in Resources */,
+				9F49010E2372586E009FC289 /* LaunchScreen.storyboard in Resources */,
+				9F49010B2372586E009FC289 /* Assets.xcassets in Resources */,
+				9F4901092372586E009FC289 /* Main.storyboard in Resources */,
+				9FD57C6B23728446008D5D5D /* CustomMapCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4901122372586E009FC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F49011D2372586E009FC289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3804B863320CAB8E00BB2B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaineExplorer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		513D2AA007A7DD9414921712 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaineExplorerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8063F24CEDF489A6E3EA38F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaineExplorerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB8E98D26146446E64D0AF92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaineExplorer/Pods-MaineExplorer-frameworks.sh",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework",
+				"${PODS_ROOT}/ArcGIS-Runtime-SDK-iOS/ArcGIS.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ArcGIS.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ArcGIS.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaineExplorer/Pods-MaineExplorer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4900FA2372586D009FC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F49013423726393009FC289 /* MapListViewController.swift in Sources */,
+				9F16F5112373A63C00BC83EB /* MapAreaCell.swift in Sources */,
+				9FD57C6A23728446008D5D5D /* CustomMapCell.swift in Sources */,
+				9F4901062372586E009FC289 /* ViewController.swift in Sources */,
+				9F4901322372627B009FC289 /* MapClass.swift in Sources */,
+				9F4901022372586D009FC289 /* AppDelegate.swift in Sources */,
+				9F4901042372586E009FC289 /* SceneDelegate.swift in Sources */,
+				9F16F50E23729BEC00BC83EB /* PopupViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4901102372586E009FC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4901192372586E009FC289 /* MaineExplorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F49011B2372586E009FC289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4901242372586E009FC289 /* MaineExplorerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F4901162372586E009FC289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4900FD2372586D009FC289 /* MaineExplorer */;
+			targetProxy = 9F4901152372586E009FC289 /* PBXContainerItemProxy */;
+		};
+		9F4901212372586E009FC289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4900FD2372586D009FC289 /* MaineExplorer */;
+			targetProxy = 9F4901202372586E009FC289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F4901072372586E009FC289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4901082372586E009FC289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F49010C2372586E009FC289 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F49010D2372586E009FC289 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4901262372586E009FC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F4901272372586E009FC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4901292372586E009FC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC27051B0DA539C45CDFD458 /* Pods-MaineExplorer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F49012A2372586E009FC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D791832568CF1E7667449C7F /* Pods-MaineExplorer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F49012C2372586E009FC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FF8880EE68CC28442BA5A5 /* Pods-MaineExplorerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaineExplorer.app/MaineExplorer";
+			};
+			name = Debug;
+		};
+		9F49012D2372586E009FC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EE7B80E0D7862FCEB8DF7B /* Pods-MaineExplorerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaineExplorer.app/MaineExplorer";
+			};
+			name = Release;
+		};
+		9F49012F2372586E009FC289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452D7AFAD8357FC755B2F2DA /* Pods-MaineExplorerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaineExplorer;
+			};
+			name = Debug;
+		};
+		9F4901302372586E009FC289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E4067485ABAD1CE4802A4F /* Pods-MaineExplorerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHCTQ8X679;
+				INFOPLIST_FILE = MaineExplorerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = demo.MaineExplorerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaineExplorer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4900F92372586D009FC289 /* Build configuration list for PBXProject "MaineExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4901262372586E009FC289 /* Debug */,
+				9F4901272372586E009FC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4901282372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4901292372586E009FC289 /* Debug */,
+				9F49012A2372586E009FC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F49012B2372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F49012C2372586E009FC289 /* Debug */,
+				9F49012D2372586E009FC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F49012E2372586E009FC289 /* Build configuration list for PBXNativeTarget "MaineExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F49012F2372586E009FC289 /* Debug */,
+				9F4901302372586E009FC289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4900F62372586D009FC289 /* Project object */;
+}

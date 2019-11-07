@@ -1,0 +1,30 @@
+PODS:
+  - ArcGIS-Runtime-SDK-iOS (100.6)
+  - Realm (3.20.0):
+    - Realm/Headers (= 3.20.0)
+  - Realm/Headers (3.20.0)
+  - RealmSwift (3.20.0):
+    - Realm (= 3.20.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - ArcGIS-Runtime-SDK-iOS (= 100.6)
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ArcGIS-Runtime-SDK-iOS
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ArcGIS-Runtime-SDK-iOS: eaf6376bda9504f6bbf1952744c286f576da69d8
+  Realm: 8b2ca5bc6479a91f379b6b42b5922e396cd5ba5a
+  RealmSwift: 1949ef26a279e1845bd51d591b9103adfcd121df
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 5925fbd36785688dca583d23b8f5bae927b4ccc3
+
+COCOAPODS: 1.5.3

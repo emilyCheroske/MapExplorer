@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="156" id="KGk-i7-Jjw" customClass="MapAreaCell" customModule="MaineExplorer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oF9-vL-4aa">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="0PH-Bk-ziP"/>
+                            <constraint firstAttribute="height" constant="100" id="gbc-xl-Rug"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="y2P-6O-SWa">
+                        <rect key="frame" x="110" y="24" width="240" height="52"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjL-3S-oKK">
+                                <rect key="frame" x="0.0" y="0.0" width="65.5" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbV-6x-xjn">
+                                <rect key="frame" x="0.0" y="40" width="24.5" height="12"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="ztu-8U-i9R">
+                        <rect key="frame" x="100" y="98" width="294" height="2"/>
+                        <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </progressView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7k-BH-59s">
+                        <rect key="frame" x="360" y="39" width="24" height="22"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <state key="normal" image="icloud.and.arrow.down" catalog="system"/>
+                        <connections>
+                            <action selector="Download:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1Wt-wW-4BG"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ztu-8U-i9R" secondAttribute="trailing" id="4dz-VI-P0Y"/>
+                    <constraint firstItem="X7k-BH-59s" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="6rT-ru-PvI"/>
+                    <constraint firstItem="y2P-6O-SWa" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8By-gO-jdV"/>
+                    <constraint firstAttribute="bottom" secondItem="oF9-vL-4aa" secondAttribute="bottom" id="Bl0-ei-xDk"/>
+                    <constraint firstAttribute="bottom" secondItem="ztu-8U-i9R" secondAttribute="bottom" id="Cax-If-Ic4"/>
+                    <constraint firstItem="oF9-vL-4aa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FY2-UU-ym4"/>
+                    <constraint firstItem="X7k-BH-59s" firstAttribute="leading" secondItem="y2P-6O-SWa" secondAttribute="trailing" constant="10" id="Uar-Ts-qlW"/>
+                    <constraint firstAttribute="trailing" secondItem="X7k-BH-59s" secondAttribute="trailing" constant="10" id="WY1-9A-i7q"/>
+                    <constraint firstItem="oF9-vL-4aa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="auF-4s-i8T"/>
+                    <constraint firstItem="y2P-6O-SWa" firstAttribute="leading" secondItem="oF9-vL-4aa" secondAttribute="trailing" constant="10" id="ea7-M2-9es"/>
+                    <constraint firstItem="ztu-8U-i9R" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="100" id="sCg-nD-guv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="DownloadButton" destination="X7k-BH-59s" id="krC-hY-Egd"/>
+                <outlet property="MapAreaDescription" destination="LbV-6x-xjn" id="r2E-hE-YiP"/>
+                <outlet property="MapAreaHeader" destination="rjL-3S-oKK" id="CTh-mo-hUL"/>
+                <outlet property="MapAreaThumbnail" destination="oF9-vL-4aa" id="F5M-so-cDr"/>
+                <outlet property="ProgressBar" destination="ztu-8U-i9R" id="pnK-d0-iaO"/>
+            </connections>
+            <point key="canvasLocation" x="191.30434782608697" y="126.5625"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icloud.and.arrow.down" catalog="system" width="64" height="56"/>
+    </resources>
+</document>
